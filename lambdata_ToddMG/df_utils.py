@@ -9,7 +9,7 @@ class DFManager():
     Helper class for dataframe functions/methods
     """
 
-    def __intit__(self, DF):
+    def __init__(self, df):
         self.df = df
 
     def mergeRows(self, df1, df2):
